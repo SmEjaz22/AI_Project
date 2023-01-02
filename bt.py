@@ -72,7 +72,7 @@ with st.container():
         )
         st.text("")
 
-    image1 = Image.open('D:/PYTHON CODE/AOOP_Project/Picture4.png')
+#     image1 = Image.open('D:/PYTHON CODE/AOOP_Project/Picture4.png')
 # with col1:
 
 # st.write("2020F-BCE-048, Syed Muhammad Ejaz Hasnain ")
@@ -81,12 +81,12 @@ with st.container():
 #     # st.markdown("***")
 # st.write("2020F-BCE-012, Mudabbir Alim ")
 _, col22, col33 = st.columns([1, 1, 1])
-with col33:
-    st.image(
-        image1,
-        caption=
-        'RESEARCH BASED PROJECT ON ARTIFICIAL INTELLIGENCE PRESENTED BY STUDENTS OF \n "SIR SYED UNIVERSITY OF ENGINEERING AND TECHNOLOGY KARACHI"',
-        width=250)
+# with col33:
+#     st.image(
+#         image1,
+#         caption=
+#         'RESEARCH BASED PROJECT ON ARTIFICIAL INTELLIGENCE PRESENTED BY STUDENTS OF \n "SIR SYED UNIVERSITY OF ENGINEERING AND TECHNOLOGY KARACHI"',
+#         width=250)
 with _:
     st.subheader('Conclusion')
     st.write("As You go through our project")
