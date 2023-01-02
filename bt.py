@@ -1,6 +1,3 @@
-from collections import deque
-from imutils.video import VideoStream
-import numpy as np
 import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
