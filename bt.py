@@ -91,7 +91,7 @@ with col33:
         width=250)
 with _:
     st.subheader('Conclusion')
-    st.write("As You go through our project")
+    #st.write("As You go through our project")
 st.markdown(
     "<h2 style='text-align: center; color: red;'><u> GROUP MEMBERS </u></h2>",
     unsafe_allow_html=True)
