@@ -92,9 +92,7 @@ with col33:
 with _:
     st.subheader('Conclusion')
     st.write("Our project aims to leverage Object Detection technology to identify target objects in images and video frames. The effectiveness of Object Detection relies on the visibility of the target object within the input. In scenarios where the object is obscured by interference, detection may not be possible.")
-    st.write("By focusing on Object Detection in video, we are able to track moving objects or objects of interest by setting predefined values within the algorithm. This allows us to establish a relationship between the target objects across sequential video frames, drawing bounding boxes around them. This technology has significant applications in various fields such as traffic monitoring, self-driving cars, and security, due to its ability to process and analyze real-time footage effectively.
-
-")
+    st.write("By focusing on Object Detection in video, we are able to track moving objects or objects of interest by setting predefined values within the algorithm. This allows us to establish a relationship between the target objects across sequential video frames, drawing bounding boxes around them. This technology has significant applications in various fields such as traffic monitoring, self-driving cars, and security, due to its ability to process and analyze real-time footage effectively.")
 st.markdown(
     "<h2 style='text-align: center; color: red;'><u> GROUP MEMBERS </u></h2>",
     unsafe_allow_html=True)
